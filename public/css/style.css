@@ -1,0 +1,179 @@
+/* =================================
+------------------------------------
+  Divisima | ApprentiPasSage -Accueil Template
+  Version: 1.0
+ ------------------------------------
+ ====================================*/
+
+
+/*----------------------------------------*/
+/* Template default CSS
+/*----------------------------------------*/
+
+
+nav{
+	background-color:#510DB3;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+#contactNav{
+	color:#F9F910;
+}
+.navbar-brand{
+	width:200px;
+}
+.navbar-toggler,.navbar-toggler-icon{
+	border-color:whitesmoke !important;
+}
+
+#logo{
+  max-width: 100%;
+  height: auto;
+}
+
+.titre{
+	color:whitesmoke;
+	background-color:#510db3;
+	width: 15%;
+	box-shadow:0 11px 10px 0 rgba(0, 0, 0, 0.2);
+}
+#nosPrestations, #association{
+	font-size: 2rem !important;
+}
+
+.block{
+	background-color:#d5bafc;
+}
+
+#blockAssociation{
+	background-color:white;
+}
+/* .card {
+	background-color:#ad81ef!important;
+} */
+
+h1 .card-text{
+	font-family: 'Rubik', sans-serif !important;
+
+}
+footer{
+	background-color:#510DB3;
+}
+footer a{
+		color:whitesmoke !important;
+}
+
+.blockC{
+ background-color:#510DB3;
+}
+
+#interlineA{
+  background: -moz-linear-gradient(#d5bafc, white);
+  background: -webkit-linear-gradient(#d5bafc, white);
+  background: -ms-linear-gradient(#d5bafc, white);
+  background: -o-linear-gradient(#d5bafc, white);
+  background: linear-gradient(to #d5bafc, white);
+}
+
+#blockAssociation .card-header{
+	background-color: white;
+}
+#interlineB{
+	background: -moz-linear-gradient(white,#d5bafc);
+  background: -webkit-linear-gradient(white,#d5bafc);
+
+  background: -ms-linear-gradient(white,#d5bafc);
+
+  background: -o-linear-gradient(white,#d5bafc);
+
+  background: linear-gradient(to white,#d5bafc);
+}
+.ban {
+	width:100%;
+	height:310px;
+	box-sizing:border-box !important;
+	background-image: url('/img/ban.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+.ban h1{
+box-sizing: border-box;
+padding-top: 166px !important;
+color: whitesmoke;
+font-family: 'Caveat Brush', cursive;
+font-size: 5rem;
+}
+
+#banTeam{
+	width:100%;
+	height:305px;
+	box-sizing:border-box !important;
+	background-image: url('/img/ban2.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#titreTeam{
+box-sizing: border-box;
+padding-top: 128px !important;
+color: black;
+font-family: 'Caveat Brush', cursive;
+font-size: 5rem;
+}
+
+#banTeamScience{
+	width:100%;
+	height:305px;
+	box-sizing:border-box !important;
+	background-image: url('/img/ban3.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+#titreTeamScience{
+box-sizing: border-box;
+padding-top: 110px !important;
+color: black;
+font-family: 'Caveat Brush', cursive;
+font-size: 3.4rem;
+}
+.carre{
+	width:150px;
+	height:300px;
+	background:blue;
+}
+
+.parallelogramme{
+	width:150px;
+	height:300px;
+	background:blue;
+	-webkit-transform:skew(20deg);
+	-moz-transform:skew(20deg);
+	-o-transform:skew(20deg);
+	transform:skew(20deg);
+}	
+			
+#essaiLeft{
+	boder:2px solid black;
+}
+
+// thrombi
+
+.contenuThrombi{
+  position: relative;
+  width: 50%;
+}
+
+.imageThrombi {
+  display: block;
+  width: 20%;
+  height: auto;
+  border-radius:50%;
+}
+
+.buttonThrombi{
+
+}
+
+
+
