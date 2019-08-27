@@ -23,10 +23,10 @@
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
 								Plus
 							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item  text-light" href="#">Galerie photos</a>
-								<a class="dropdown-item  text-light" href="#">Témoignages</a>
-								<a class="dropdown-item  text-light" href="#">Nos coups de coeur</a>
+							<div class="dropdown-menu m-t-2" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item  text-black" href="#">Galerie photos</a>
+								<a class="dropdown-item  text-black" href="#">Témoignages</a>
+								<a class="dropdown-item  text-black" href="#">Nos coups de coeur</a>
 							</div>
 						</li>
 					</ul>

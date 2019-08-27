@@ -32,25 +32,29 @@
 </div>
 {{--ENDbanniere asso--}}
 {{--ASSOCIATION--}}
-<div class="block d-flex row m-1" id="blockAssociation"> 
+<div class="block d-flex row m-2" id="blockAssociation"> 
 <div class="card text-center m-5">
   <div class="card-header">
     <ul class="nav nav-pills card-header-pills">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Evènements</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Description</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Statut</a>
-      </li>
+      <li class="nav-item m-2"  id="evenementAssociation"><h4 class="textDecoration">Evènements</h4></li>
+      <li class="nav-item m-2"id="descriptionAssociation"><h4 >Description</h4></li>
+      <li class="nav-item m-2" id="statutAssociation"><h4 >Statut</h4></li>
     </ul>
   </div>
   <div class="card-body">
+  	<div id="textEvenement">
     <h5 class="card-title">Special title treatment</h5>
-    <p class="card-text">e Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+    <p class="card-text text-center" >Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
     <a href="#" class="btn btn-warning">Go somewhere</a>
+</div>
+	<div id="textDescription" class="displayNone">
+    <p class="card-text text-center">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+    <a href="#" class="btn btn-warning">Go somewhere</a>
+</div>
+<div id="textStatut" class="displayNone">
+    <p class="card-text text-center">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un imprimeur anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte. Il n'a pas fait que survivre cinq siècles, mais s'est aussi adapté à la bureautique informatique, sans que son contenu n'en soit modifié. Il a été popularisé dans les années 1960 grâce à la vente de feuilles Letraset contenant des passages du Lorem Ipsum, et, plus récemment, par son inclusion dans des applications de mise en page de texte, comme Aldus PageMaker.</p>
+    <a href="#" class="btn btn-warning">Go somewhere</a>
+</div>
   </div>
 </div>
 </div>
@@ -76,7 +80,7 @@
 </div>
 {{--@foreach ($team as $user)--}}
 <div class="contenuThrombi m-2">
-	<img class="imageThrombi"src="img/remy-1.jpg" alt="photo de {nom prénom}">
+	<img class="imageThrombi"src="img/remy-1.jpg" alt="photo de {nom prénom} ">
 	<div class="textThrombi" class="teamGroupOffice">{Nom Prénom}</div>
 </div>
 {{--ENDL'équipe--}}

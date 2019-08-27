@@ -18,7 +18,7 @@ nav{
 
 
 #contactNav{
-	color:#F9F910;
+	color:#F9F910 !important;
 }
 .navbar-brand{
 	width:200px;
@@ -171,8 +171,19 @@ font-size: 3.4rem;
   border-radius:50%;
 }
 
-.buttonThrombi{
+.dropdown-menu{
+	background-color:#510DB3 !important;
+	margin-top: 1.125rem !important; 
+}
 
+.buttonThrombi{}
+
+.displayNone{
+	display:none;
+}
+.textDecoration{
+	text-decoration: underline;
+	color:#510DB3;
 }
 
 
