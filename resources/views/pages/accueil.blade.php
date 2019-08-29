@@ -36,9 +36,9 @@
 	<div class="card text-center m-5">
 		<div class="card-header">
 			<ul class="nav nav-pills card-header-pills">
-				<li class="nav-item m-2"><h4 id="evenementAssociation"class="textDecoration">Evènements</h4></li>
-				<li class="nav-item m-2"><h4 id="descriptionAssociation" >Description</h4></li>
-				<li class="nav-item m-2"><h4 id="statutAssociation">Statut</h4></li>
+				<li class="nav-item m-4"><h4 id="evenementAssociation"class="textDecoration">Evènements</h4></li>
+				<li class="nav-item m-4"><h4 id="descriptionAssociation" >Description</h4></li>
+				<li class="nav-item m-4"><h4 id="statutAssociation">Statut</h4></li>
 			</ul>
 		</div>
 		<div class="card-body">

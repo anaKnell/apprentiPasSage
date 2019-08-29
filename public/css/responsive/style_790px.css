@@ -1,0 +1,35 @@
+@media only screen and (max-width: 768px) {
+	.ban{
+		height:320px;
+	}
+	#nosPrestations, #association {
+    	font-size: 1.4rem !important;
+    	text-align: left !important;
+	}
+	
+	.imageThrombi {
+    	width: 25%;
+    }
+
+	#banTeam{
+		height:177px;
+	}
+
+	#titreTeam{
+		padding-top: 84px !important;
+		font-size:2.5rem;
+	}
+	
+    #banTeamScience{
+		height: 173px;
+	}
+
+	#titreTeamScience{
+		padding-top: 150px !important;
+		padding-top: 64px !important;
+		font-size:2.1rem;
+	}
+
+
+	
+}
