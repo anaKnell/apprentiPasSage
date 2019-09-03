@@ -3,24 +3,35 @@
 @section('title', "Accueil")
 
 @section('content')
+
+<p>
+{{--	@foreach($categorie as $cat)
+	@foreach($cat->getCategorie as $nameCat)
+	<p>id {{$cat->categories_id}}: img= {{$cat->categories_img}} -> name= {{$nameCat->categories_name}}</p>
+	@endforeach
+	@endforeach--}}
+</p>
+
 <div class="block d-flex row">
 	<div class="blockA col-sm-1"></div>
 	<div class="titre col-sm-2 text-right">
 		<h1 class="m-1" id="nosPrestations">Nos prestations</h1>
 	</div>
-	{{--@foreach ($prestation as $cat)--}}
+	@foreach($categorie as $cat)
+	@foreach($cat->getCategorie as $nameCat)
 	<div class="blockB col-sm-9 d-inline-flex">
 		<div class="card m-1" id="cardPrestation" style="width: 15rem;">
-			<img class="card-img-top" src="img/school.PNG" alt="{image}">
+			<img class="card-img-top" src="img/{{$cat->categories_img}}" alt="{image}">
 			<div class="card-body cardPrestation">
-				<h1 class="card-text">Sciences{{--{{ $cat->id }}--}}</h1>
+				<h1 class="card-text">{{$nameCat->categories_name}}</h1>
 				<i class="fas fa-atom"></i>
 				<a href="" class="btn btn-warning">LINK{{--{{$cat->link}}--}}</a>
 			</div>
 		</div>
 	</div>
 </div>
-{{--@endforeach--}}
+@endforeach
+@endforeach
 
 {{--Interline--}}
 <div class="row" id="interlineA" style="height: 100px; background-color:#d5bafc;">

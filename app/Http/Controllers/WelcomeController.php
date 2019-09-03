@@ -3,12 +3,14 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\models;
 
 class WelcomeController extends Controller
 {
     public function index()
     {
-        return view('pages.accueil');
+    	$categorie = models\categories::with('getCategorie')->get();
+        return view('pages.accueil', compact('categorie'));
     }
 
     public function showAsso()
