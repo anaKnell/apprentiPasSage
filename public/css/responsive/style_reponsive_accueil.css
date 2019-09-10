@@ -150,5 +150,8 @@ font-size: 3.4rem;
     padding-top: 29px !important;
     font-size: 1rem;
 }
-
+	.clearText{
+		padding:0rem !important;
+		margin:auto;
+	}
 }

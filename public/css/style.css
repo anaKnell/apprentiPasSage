@@ -205,7 +205,14 @@ font-size: 3.4rem;
 	font-family: 'Caveat Brush', cursive!important;
 }
 
-
-
 .listeAssociation ul{
-list-style: none;!important;}
+list-style: none;!important;
+}
+.text-center ul{
+	text-align:left!important;
+}
+
+.clearText{
+		padding:3rem !important;
+		margin:auto;
+	}
