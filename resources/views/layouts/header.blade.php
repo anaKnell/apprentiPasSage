@@ -10,13 +10,13 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 						<li class="nav-item m-1">
-							<a class="nav-link  text-light" href="#">Qui sommes-nous?</a>
+							<a class="nav-link text-light" href="#">Qui sommes-nous?</a>
 						</li>
 						<li class="nav-item m-1">
-							<a class="nav-link  text-light" href="#">Nos prestations</a>
+							<a class="nav-link text-light" href="#">Nos prestations</a>
 						</li>
 						<li class="nav-item m-1">
-							<a class="nav-link  text-light" href="#">Evènements</a>
+							<a class="nav-link text-light" href="#">Evènements</a>
 						</li>
 
 						<li class="nav-item dropdown m-1">
