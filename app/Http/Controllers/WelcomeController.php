@@ -17,6 +17,8 @@ class WelcomeController extends Controller
         $events_next = models\evenement::whereYear('evenement_date','>=',$now)->get();
 
 
+
+
         return view('pages.accueil', compact('categorie','team','events_next'));
     }
 
