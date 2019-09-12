@@ -15,6 +15,6 @@ class status extends Model
     ];
 
     function getStatus(){
-    	return $this->hasMany('App\models\membre', 'membre_id', 'status_id');
+    	return $this->belongsToMany('App\models\membre', 'membre_status', 'status_id','membre_id');
     }
 }

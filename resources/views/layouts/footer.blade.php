@@ -1,5 +1,5 @@
 <footer>
-	<div class="container-fluid text-center m-t-1">
+	<div class="text-center m-t-1">
 		<ul class="list-inline m-0">
 			<li class="list-inline-item m-1"><a href="#" class="text-decoration-none">Plan du site</a></li>
 			<li class="list-inline-item m-1"><a href="#" class="text-decoration-none">Contact</a></li>

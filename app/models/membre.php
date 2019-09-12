@@ -15,16 +15,8 @@ class membre extends Model
     ];
 
     function getMembre(){
-    	return $this->belongsTo('App\models\status', 'membre_id', 'status_id');
+    	return $this->belongsToMany('App\models\status', 'membre_status', 'membre_id','status_id');
     }
 
-/*    public function replaceIsNull(){
-    	if($this->membre_photo == NULL){
-    		$this->membre_photo = "apprentispassages_logo_renard.png";
-    	}
-        else{
-           return $this->membre_photo;
-        }
-    }*/
 }
 

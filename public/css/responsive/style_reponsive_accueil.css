@@ -32,6 +32,7 @@
 		padding-top: 144px !important;
 		font-size: 3.1rem;
 	}
+
 }
 
 
@@ -70,9 +71,9 @@ font-size: 5rem;
 padding-top: 110px !important;
 font-size: 3.4rem;
 }
-
-.imageThrombi{
-  width: 20%;
+.cardTrombi{
+	margin-left:200px;
+	margin-right:200px;
 }
 
 
@@ -87,10 +88,6 @@ font-size: 3.4rem;
     	text-align: left !important;
 	}
 	
-	.imageThrombi {
-    	width: 25%;
-    }
-
 	#banTeam{
 		height:177px;
 	}
@@ -138,10 +135,6 @@ font-size: 3.4rem;
     	font-size: 1.5rem;
     }
 
-    #imageThrombi{
-		width: 40%;
-    }
-
     #banTeamScience {
     	height: 78px;
 	}
@@ -154,4 +147,5 @@ font-size: 3.4rem;
 		padding:0rem !important;
 		margin:auto;
 	}
+
 }

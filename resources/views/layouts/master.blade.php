@@ -5,12 +5,13 @@
 	@include('layouts.link')
 </head>
 <body>
-	<div class="container-fluid m-0 p-0">
-		@include('layouts.header')
-		@yield('content')
-		@include('layouts.footer')
-	</div>
+	
+	@include('layouts.header')
+	@yield('content')
+	@include('layouts.footer')
+
 	@include('layouts.script')
+	
 	<script src="js/thrombinoscopeGroupe.js"></script>
 </body>
 </html>

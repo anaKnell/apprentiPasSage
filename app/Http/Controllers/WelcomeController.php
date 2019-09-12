@@ -11,15 +11,14 @@ class WelcomeController extends Controller
     {	
 
     	$categorie = models\categories::with('getCategorie')->get();
-    	$team = models\membre::with('getMembre')->get();
-
         $now = date('Y-m-d');
         $events_next = models\evenement::whereYear('evenement_date','>=',$now)->get();
 
+    	$team = models\membre::with('getMembre')->get();
+        //$status = models\membre_status::with('getStatus')->get();
 
-
-
-        return view('pages.accueil', compact('categorie','team','events_next'));
+        
+       return view('pages.accueil', compact('categorie','team','events_next'));
     }
 
     public function showAsso()

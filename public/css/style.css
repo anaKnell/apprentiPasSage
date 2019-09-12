@@ -167,9 +167,16 @@ font-size: 3.4rem;
 
 .imageThrombi {
   display: block;
-  width: 20%;
+  width: 180px;
   height: auto;
   border-radius:50%;
+  border:1.5px solid #ede484;
+  box-shadow: 8px 0px 15px whitesmoke;
+}
+
+.imageThrombi:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
 }
 
 .dropdown-menu{
@@ -216,3 +223,10 @@ list-style: none;!important;
 		padding:3rem !important;
 		margin:auto;
 	}
+
+.cardTrombi{
+	margin:auto;
+}
+.hello{
+	width:100%!important;
+}
