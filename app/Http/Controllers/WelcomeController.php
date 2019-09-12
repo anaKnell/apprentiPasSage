@@ -14,8 +14,10 @@ class WelcomeController extends Controller
         $now = date('Y-m-d');
         $events_next = models\evenement::whereYear('evenement_date','>=',$now)->get();
 
-    	$team = models\membre::with('getMembre')->get();
-        //$status = models\membre_status::with('getStatus')->get();
+    	$team = models\membre::with('getMembre')->inRandomOrder()->get();
+       
+
+        $hello = models\cdc::with('getCdc')->inRandomOrder()->get();
 
         
        return view('pages.accueil', compact('categorie','team','events_next'));

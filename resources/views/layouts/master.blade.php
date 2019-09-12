@@ -11,7 +11,6 @@
 	@include('layouts.footer')
 
 	@include('layouts.script')
-	
-	<script src="js/thrombinoscopeGroupe.js"></script>
+
 </body>
 </html>

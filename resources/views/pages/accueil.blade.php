@@ -45,9 +45,10 @@
 {{--TEAM--}}
 	<div class="container d-flex align-items-center">
 		<ul class="list-inline mx-auto">
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn btn-warning btn-border rounded" id="teamoffice">Bureau</button></li>
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn btn-outline-warning" id="teamCoordonnateur">Coordonnateurs</button></li>
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn btn-outline-warning" id="teamMembre">Membres</button></li>
+			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn btn-border rounded" id="TeamBureau">Bureau</button></li>
+			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamCoordonnateur">Coordonnateurs</button></li>
+			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamMembre">Membres</button></li>
+			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamCs">Conseil scientifique</button></li>
 		</ul>
 	</div>
 	<div class="m-1 col-md themed-grid-col">
@@ -58,19 +59,22 @@
 		</div>
 
 {{--End TEAM--}}
-
+{{--Interline--}}
+	<div class="row" id="interlineC" style="height: 100px; background-color:white;"></div>
 {{--Coup de coeur--}}
 	<div class="container-fluid m-t-1 ban">
 		<h1 id="titreAssociation" style="box-sizing:border-box;">Coup de coeur</h1>
 	</div>
 {{--END Coup de coeur--}}
 
+	@include('pages.accueil.coupDeCoeur-accueil',compact($hello));
+}
+}
 {{--ENDbanniere coup de coeur--}}
 
 
-	<div class=" row m-3" style="box-sizing:content-box;">
 
-	</div>
+	
 
 
 {{--Interline--}}
