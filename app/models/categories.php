@@ -18,4 +18,8 @@ class categories extends Model
     	return $this->hasMany('App\models\name_categorie', 'categories_id', 'categories_id');
     }
 
+    	function getCat(){
+    		return $this->belongsToMany('App\Models\prestations','prestations_cat','categories_id','prestations_id');
+    	}
+
 }

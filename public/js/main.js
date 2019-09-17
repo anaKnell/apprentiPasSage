@@ -27,19 +27,20 @@ function borderGroup(){
 
 ////////////////////////////////////////////////////////
 
-$(document).ready(function($) {
-		borderGroup();
+/*$(document).ready(function() {*/
 
+		borderGroup();
 		$('#keywords').jQCloud(words, {
-			colors: ["#f8eb3a",  "#ab6bd6", "#b7b5a1"],
-  		width: 500,
-  		height: 350,
-  		autoResize:true,
-  		fontSize: {
-    		from: 0.1,
-    		to: 0.02
+			classPattern: "w3",
+			colors: ["whitesmoke",  "#CCCCFF", "#b7b5a1","#f4f7b4"],
+  			width: 800,
+  			height: 700,
+  			autoResize:true,
+  			fontSize: {
+    			from: 0.04,
+    			to: 0.02
   			}
 });
-});
+/*});*/
 
 

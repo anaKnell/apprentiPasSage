@@ -3,11 +3,11 @@
 		var words = [
 
 		  @foreach($hello as $site)
-		  @php $rand = rand(1,5) @endphp 
-		  {text: "#{{$site->cdc_name}}",weight:{{$rand}}},
+		  @php $rand = rand(1,7) @endphp 
+		  {text: "{{$site->cdc_name}}",weight:{{$rand}},link:"{{$site->cdc_link}}"},
 		  @endforeach
 	];
 </script>
 <script type="application/javascript" src="js/main.js"></script>
-<div id="keywords" style="box-sizing:content-box;">
-</div>
+
+<div id="keywords" class="m-auto" style="box-sizing:content-box;"></div>

@@ -5,6 +5,7 @@
 @section('content')
 
 {{--Prestations--}}
+<section>
 	<div class="block d-flex row">
 		<div class="blockA col-md-1"></div>
 		<div class="titre col-md-2 text-right">
@@ -14,13 +15,14 @@
 			<div class="row">
 				@foreach($categorie as $cat)
 					@foreach($cat->getCategorie as $nameCat)
-						@include('pages.accueil.accueil-PrestationCard', compact($cat))
+						@include('pages.accueil.accueil-PrestationCard', compact(cat))
 					@endforeach
 				@endforeach
 			</div>
 		</div>
 	</div>
-
+</section>
+{{--ENDPrestations--}}
 {{--Interline--}}
 	<div class="row" id="interlineA" style="height: 100px; background-color:#d5bafc;">
 	</div>
@@ -33,7 +35,9 @@
 {{--ENDbanniere asso--}}
 
 {{--ASSOCIATION--}}
-	@include('pages.accueil.association-accueil');
+<section class="container">
+	@include('pages.accueil.association-accueil')
+</section>
 {{--END-ASSOCIATION--}}
 
 {{--banniere team--}}
@@ -62,22 +66,17 @@
 {{--Interline--}}
 	<div class="row" id="interlineC" style="height: 100px; background-color:white;"></div>
 {{--Coup de coeur--}}
-	<div class="container-fluid m-t-1 ban">
-		<h1 id="titreAssociation" style="box-sizing:border-box;">Coup de coeur</h1>
+<section id="coupDeCoeur">
+	<div class="container-fluid m-t-1 ban2">
+		<h1 id="titreAssociation"  class="float-right"style="box-sizing:border-box;">Coup de coeur</h1>
 	</div>
-{{--END Coup de coeur--}}
 
-	@include('pages.accueil.coupDeCoeur-accueil',compact($hello));
-}
-}
-{{--ENDbanniere coup de coeur--}}
+@include('pages.accueil.coupDeCoeur-accueil',compact($hello))
+</section>
 
-
-
-	
-
+{{--ENDcoup de coeur--}}
 
 {{--Interline--}}
-	<div class="row" id="interlineB" style="height: 100px; background-color:white;"></div>
+<!-- 	<div class="row" id="interlineB" style="height: 100px; background-color:white;"></div> -->
 @endsection
 

@@ -20,13 +20,9 @@ class WelcomeController extends Controller
         $hello = models\cdc::with('getCdc')->inRandomOrder()->get();
 
         
-       return view('pages.accueil', compact('categorie','team','events_next'));
+       return view('pages.accueil', compact('categorie','team','events_next','hello'));
     }
 
-    public function showAsso()
-    {
-        return view('pages.association');
-    }
     
 }
 

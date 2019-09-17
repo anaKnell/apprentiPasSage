@@ -13,21 +13,14 @@
 
 Route::get('/','WelcomeController@index')->name('Accueil');
 
-Route::get('/association','WelcomeController@showAsso')->name('Association');
+Route::get('/prestation/{catId}', 'PrestationController@getOnePrestation')->name('prestation.getOnePrestation');
+
+
+
+/*Route::get('/prestations/{categories_id}','PrestationController@getCatPrestation')->name('prestation');*/
 
 /*route::get('association',function(){
 	return view('association');
 });
 */
-route::get('evenement',function(){
-	return view('evenement');
-});
-
-route::get('prestation',function(){
-	return view('prestation');
-});
-
-route::get('contact',function(){
-	return view('contact');
-});
 

@@ -108,7 +108,8 @@ font-size: 3.4rem;
 	}
 
 	.card{
-		margin:5px !important;
+		margin-left: 1.5rem;
+		margin-top: 1.5rem;
 	}
 
 }
@@ -123,9 +124,12 @@ font-size: 3.4rem;
 	}
 	
 	.card{
-    	margin: 0 !important;
+    	margin: auto;
+    	margin-top:1.5rem;
 	}
-
+	.prestationCard{
+	
+}
 	#banTeam {
     	height: 87px;
     }
@@ -147,5 +151,8 @@ font-size: 3.4rem;
 		padding:0rem !important;
 		margin:auto;
 	}
-
+	#blockAssociation{
+		margin: auto;
+	}
+	
 }

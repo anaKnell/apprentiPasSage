@@ -1,5 +1,5 @@
 <div class="col-sm themed-grid-col">
-	<div class=" d-flex align-items-center cardTrombi" style="width: 18rem; height: 18rem;">
+	<div class="cardTrombi" style="width: 18rem; height: 18rem;">
 
 		<div class="d-flex flex-column">
 

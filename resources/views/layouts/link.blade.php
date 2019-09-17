@@ -10,6 +10,13 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
         {{--FONT--}}
     <link href="https://fonts.googleapis.com/css?family=Caveat+Brush|Rubik|Vidaloka&display=swap" rel="stylesheet"> 
+
+
+<link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+
+<link href="https://fonts.googleapis.com/css?family=Give+You+Glory&display=swap" rel="stylesheet">
+
+
     
 
 
