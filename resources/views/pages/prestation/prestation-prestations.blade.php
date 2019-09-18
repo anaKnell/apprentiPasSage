@@ -1,17 +1,39 @@
+@foreach($onePresta as $prestation)
+@foreach($prestation->getPlusPresta as $aboutPresta)
 
-<!-- Stack the columns on mobile by making one full-width and the other half-width -->
 <div class="row">
-  <div class="col-xs-12 col-sm-3 border" style="height: 18rem;">{{dd($onePresta)}}</div>
-  <div class="col-xs-12 col-sm-5 border" style="height: 18rem;">Titre</div>
-  <div class="col-xs-12 col-sm-4 border" style="height: 18rem;">Participant</div>
+  <div class="col-xs-12 col-sm-3 m-auto">
+  	<img class="imgPresta " src="/img/team/apprentispassages_logo_renard.png" alt="photo represantant la prestation nommée {{$aboutPresta->prestations_nom}}" style="width:150px;">
+  </div>
+  <div class="col-xs-12 col-sm-5 " style="width:100%;">
+	<h1 class="titreH1prestation">{{$aboutPresta->prestations_nom}}</h1>
+  </div>
+  <div class="col-xs-12 col-sm-4 m-auto" style="width:100%;">
+  	<h2 class="titreH2prestation">Pour quel type de public?</h2>
+  	<h3 class="titreH3prestation">{{$aboutPresta->prestations_participants}}</h3>
+  </div>
 </div>
 
 <div class="row">
-  <div class="col-12 col-sm-8 border" style="height: 18rem;">description</div>
-  <div class="col-12 col-sm-4 border" style="height: 18rem;">objectif</div>
+  <div class="col-12 col-sm-8" style="width:100%;">
+  	<h2 class="titreH2prestation">Description</h2>
+  	<p>{{$aboutPresta->prestations_description}}</p>
+  </div>
+  <div class="col-12 col-sm-4" style="width:100%;">
+	<h2 class="titreH2prestation">L'objectif:</h2>
+	<h3 class="titreH3prestation">{{$aboutPresta->prestations_objectifs}}</h3>
+  </div>
 </div>
 
 <div class="row">
-  <div class="col-12 col-sm-8 border" style="height: 18rem;">cahier des charges</div>
-  <div class="col-12 col-sm-4 border" style="height: 18rem;">Prix</div>
+  <div class="col-12 col-sm-8" style="width:100%;">
+  	<p>{{$aboutPresta->prestations_cahierdescharges}}</p>
+  </div>
+  <div class="col-12 col-sm-4 border rounded" style="width:100%;">
+  	<h2 class="titreH2prestation">Prix:</h2>
+  	<h3 class="titreH3prestation">{{$aboutPresta->prestations_prix}}</h3>
+  </div>
 </div>
+@endforeach
+@endforeach
+

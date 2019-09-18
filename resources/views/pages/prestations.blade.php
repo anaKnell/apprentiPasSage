@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', "Accueil")
+@section('title', "Prestations")
 
 @section('content')
 
@@ -10,7 +10,6 @@
 
 			@foreach ($prestaCat as $categorie) 
 			<div class="row">
-
 					@include('pages.prestation.categories-prestation', compact('prestaCat'))
 			@endforeach
 
