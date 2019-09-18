@@ -1,6 +1,6 @@
 <header class="">
 	<nav class="navbar navbar-expand-lg navbar-light sticky-top d-flex">
-		<a class="navbar-brand" href="?/accueil">
+		<a class="navbar-brand" href="">
 			<img id="logo" src="/img/apprentis_pas_sages_logo.png" alt="logo association">
 		</a>
   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

@@ -15,7 +15,7 @@
 			<div class="row">
 				@foreach($categorie as $cat)
 					@foreach($cat->getCategorie as $nameCat)
-						@include('pages.accueil.accueil-PrestationCard', compact(cat))
+						@include('pages.accueil.accueil-PrestationCard', compact($cat))
 					@endforeach
 				@endforeach
 			</div>

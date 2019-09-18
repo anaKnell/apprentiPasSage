@@ -13,9 +13,9 @@
 
 Route::get('/','WelcomeController@index')->name('Accueil');
 
-Route::get('/prestation/{catId}', 'PrestationController@getOnePrestation')->name('prestation.getOnePrestation');
+Route::get('/prestations/{catId}', 'PrestationController@getCatPrestation')->name('prestations.getCatPrestation');
 
-
+Route::get('/prestation/{prestaId}','PrestationController@getOnePrestation')->name('prestation.getOnePrestation');
 
 /*Route::get('/prestations/{categories_id}','PrestationController@getCatPrestation')->name('prestation');*/
 
