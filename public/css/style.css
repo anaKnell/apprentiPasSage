@@ -308,3 +308,27 @@ list-style: none;!important;
 	background-size:cover;
 	height: 197px;
 }
+
+.imageOneTeam{
+  width: 160px;
+  height: auto;
+  border-radius:50%;
+  border:5px solid #ede484;
+  box-shadow: 8px 0px 15px whitesmoke;
+}
+
+/*----------------------------------------*/
+/* Template default CSS event
+/*----------------------------------------*/
+#banEvent{
+	width:100%;
+	background-image: url('/img/banEvent.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+#sectionEvent{
+	background-color: rgba(234, 230, 242,0.9);
+	border-radius:10px;
+	
+}

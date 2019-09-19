@@ -7,8 +7,9 @@
 			<h5>{{$event->evenement_titre}}</h5>
 		</div>
 		<div class="col-sm">
-		<p>{{$event->evenement_short_desc}}</p>
+		<a class="btn" href="{{route('eventController.getOneEvent', ['eventId'=>$event->evenement_id])}}">En savoir plus</a>
 		</div>
+
 	</div>
 </div>
 	

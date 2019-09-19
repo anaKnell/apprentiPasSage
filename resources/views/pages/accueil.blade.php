@@ -35,7 +35,7 @@
 {{--ENDbanniere asso--}}
 
 {{--ASSOCIATION--}}
-<section class="container">
+<section id="sectionAssociation" class="container">
 	@include('pages.accueil.association-accueil')
 </section>
 {{--END-ASSOCIATION--}}
