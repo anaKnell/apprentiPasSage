@@ -53,9 +53,9 @@ nav{
 
 }
 }
-.prestationCard {
+/* .prestationCard {
 	margin: 1.5rem !important;
-}
+} */
 
 h1 .card-text{
 	font-family: 'Rubik', sans-serif !important;
@@ -182,7 +182,7 @@ font-size: 3.4rem;
 
 .imageThrombi {
   display: block;
-  width: 180px;
+  width: 160px;
   height: auto;
   border-radius:50%;
   border:1.5px solid #ede484;
@@ -217,11 +217,12 @@ font-size: 3.4rem;
 	font-weight:bold !important;
 }
 
-.card-text {
+/* .card-text {
 	font-size: 18px!important;
 	line-height: 1.85em!important;
 	letter-spacing: -.02rem!important;
-}
+} */
+
 .quote{
 	color:#510DB3;
 	font-family: 'Caveat Brush', cursive!important;
@@ -248,6 +249,7 @@ list-style: none;!important;
 
 .textThrombi {
     font-family: 'Give You Glory', cursive;
+    font-size:1.4rem;
 }
 
 /*----------------------------------------*/
@@ -272,9 +274,37 @@ list-style: none;!important;
 	background-image: url('/img/banPresta.png');
 	background-repeat: no-repeat;
 	background-size:cover;
+	height: 260px;
 }
 
 .imgPresta{
 	width:150px;
 	border-bottom: 3px solid #510db3;
+}
+
+.textPartPrestation{
+	font-size: 0.9rem;
+}
+.textObjPrestation{
+	font-size: 0.8rem;
+}
+
+.cardPresta{
+	box-shadow: 5px 5px 4px #b5aac4; 
+}
+#prix{
+	border: 1px solid #510db3;
+	border-radius:5px;
+	padding:10px;
+}
+
+/*----------------------------------------*/
+/* Template default CSS team
+/*----------------------------------------*/
+#banOneTeam{
+	width:100%;
+	background-image: url('/img/banTeam.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 197px;
 }

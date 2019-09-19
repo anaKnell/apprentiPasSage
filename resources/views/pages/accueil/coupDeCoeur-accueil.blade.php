@@ -4,7 +4,7 @@
 
 		  @foreach($hello as $site)
 		  @php $rand = rand(1,7) @endphp 
-		  {text: "{{$site->cdc_name}}",weight:{{$rand}},link:"{{$site->cdc_link}}"},
+		  {text: "{!!$site->cdc_name!!}",weight:{{$rand}},link:"{{$site->cdc_link}}"},
 		  @endforeach
 	];
 </script>

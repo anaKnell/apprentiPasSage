@@ -15,9 +15,9 @@
 </div>
 
 <div class="row">
-  <div class="col-12 col-sm-8" style="width:100%;">
-  	<h2 class="titreH2prestation">Description</h2>
-  	<p>{{$aboutPresta->prestations_description}}</p>
+  <div class="col-12 col-sm-8 border rounded" style="width:100%;">
+  	<h2 class="titreH2prestation">Informations</h2>
+  	<p>{!!$aboutPresta->prestations_description!!}</p>
   </div>
   <div class="col-12 col-sm-4" style="width:100%;">
 	<h2 class="titreH2prestation">L'objectif:</h2>
@@ -26,12 +26,13 @@
 </div>
 
 <div class="row">
-  <div class="col-12 col-sm-8" style="width:100%;">
-  	<p>{{$aboutPresta->prestations_cahierdescharges}}</p>
+  <div class="col-12 col-sm-8 border rounded" style="width:100%;">
+    <h2 class="titreH2prestation">Cahier des charges:</h2>
+    {!!$aboutPresta->prestations_cahierdescharges!!}
   </div>
-  <div class="col-12 col-sm-4 border rounded" style="width:100%;">
-  	<h2 class="titreH2prestation">Prix:</h2>
-  	<h3 class="titreH3prestation">{{$aboutPresta->prestations_prix}}</h3>
+  <div class="col-12 col-sm-4" style="width:100%;">
+  	<h2 class="titreH2prestation" >Prix:</h2>
+  	<h3 class="titreH3prestation" id="prix">{!!$aboutPresta->prestations_prix!!}</h3>
   </div>
 </div>
 @endforeach

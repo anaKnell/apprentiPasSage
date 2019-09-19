@@ -4,7 +4,6 @@
 
 @section('content')
 
-
 {{--banniere asso--}}
 <div id="banPresta" class="container-fluid ban"></div>
 {{--ENDbanniere asso--}}

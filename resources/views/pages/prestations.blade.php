@@ -5,18 +5,15 @@
 @section('content')
 
 {{--Prestations--}}
-<section>
-	<div class="block d-flex row">
+<section class="block">
+	<div class="d-flex row ml-2 mr-2">
 
 			@foreach ($prestaCat as $categorie) 
-			<div class="row">
 					@include('pages.prestation.categories-prestation', compact('prestaCat'))
 			@endforeach
-
-		</div>
 	</div>
 </section>
 {{--ENDPrestations--}}
 
-
+<div id="interlineA" style="height: 100px;"></div>
 @endsection

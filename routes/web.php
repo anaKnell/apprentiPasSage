@@ -17,6 +17,8 @@ Route::get('/prestations/{catId}', 'PrestationController@getCatPrestation')->nam
 
 Route::get('/prestation/{prestaId}','PrestationController@getOnePrestation')->name('prestation.getOnePrestation');
 
+Route::get('/membre-association/{teamId}','teamController@getOneteam')->name('teamController.getOneteam');
+
 /*Route::get('/prestations/{categories_id}','PrestationController@getCatPrestation')->name('prestation');*/
 
 /*route::get('association',function(){

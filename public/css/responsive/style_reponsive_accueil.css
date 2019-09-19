@@ -71,11 +71,6 @@ font-size: 5rem;
 padding-top: 110px !important;
 font-size: 3.4rem;
 }
-.cardTrombi{
-	margin-left:200px;
-	margin-right:200px;
-}
-
 
 }
 /*---------------Ipad Screen-------------*/
@@ -155,4 +150,23 @@ font-size: 3.4rem;
 		margin: auto;
 	}
 	
+}
+
+/*----------------------------------------*/
+/* Template responsive CSS Prestation
+/*----------------------------------------*/
+
+/*---------------Medium Screen-------------*/
+@media only screen and (max-width: 768px) {
+#banPresta{
+height: 124px;
+}
+
+
+}
+
+@media only screen and (max-width: 375px) {
+	#banPresta{	
+	height: 62px;
+}
 }
