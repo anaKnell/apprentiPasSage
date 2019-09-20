@@ -26,7 +26,7 @@
 					</li>
 				</ul>
 				<div class="nav-item active border rounded justify-content-between">
-					<a class="nav-link  text-light" href="#" id="contactNav">Nous contacter</a>
+					<a class="nav-link  text-light" href="{{route('Contact')}}" id="contactNav">Nous contacter</a>
 				</div>
 		</div>
 	</nav>

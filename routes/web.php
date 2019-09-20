@@ -21,10 +21,8 @@ Route::get('/membre-association/{teamId}','TeamController@getOneteam')->name('te
 
 Route::get('/evenement-association/{eventId}','EventController@getOneEvent')->name('eventController.getOneEvent');
 
-/*Route::get('/prestations/{categories_id}','PrestationController@getCatPrestation')->name('prestation');*/
+Route::get('/contact', 'ContactUSController@create')->name('Contact');
 
-/*route::get('association',function(){
-	return view('association');
-});
-*/
+Route::post('/contact', ['as'=>'contactus.store','uses'=>'ContactUSController@store']);
+
 

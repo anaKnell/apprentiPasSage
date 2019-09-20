@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
-<html>
-<head>
-	<title>ApprentiPasSages - @yield('title')</title>
-	@include('layouts.link')
-</head>
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>ApprentiPasSages - @yield('title')</title>
+			@include('layouts.link')
+	</head>
 <body style="width:100%;">
 	
 	@include('layouts.header')
