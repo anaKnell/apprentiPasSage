@@ -4,7 +4,8 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>ApprentiPasSages - @yield('title')</title>
-			@include('layouts.link')
+			
+		@include('layouts.link')
 	</head>
 <body style="width:100%;">
 	

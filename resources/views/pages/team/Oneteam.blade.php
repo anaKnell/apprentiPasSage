@@ -1,6 +1,10 @@
 <div class="row">
   <div class="col-3 p-auto">
-  	 <img class="imageOneTeam" src="/img/team/{{$membre->membre_photo}}" alt="photo de {{$membre->membre_nom}} {{$membre->membre_prenom}} de l'association ApprentiPasSage" style="width:200px;">
+    @if($membre->membre_photo == null)
+      <img class="imageOneTeam" src="/img/team/apprentispassages_logo_renard.png" alt="photo de l'avatar de l'association ApprentiPasSage" style="width:200px;">
+    @else
+  	   <img class="imageOneTeam" src="/img/team/{{$membre->membre_photo}}" alt="photo de {{$membre->membre_nom}} {{$membre->membre_prenom}} de l'association ApprentiPasSage" style="width:200px;">
+    @endif
   </div>
   <div class="col-5" style="width:100%;">
 	   <h1 class="titreH1prestation pt-5">{{$membre->membre_prenom}} {{$membre->membre_nom}}</h1>

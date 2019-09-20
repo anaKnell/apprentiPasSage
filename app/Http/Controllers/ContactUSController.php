@@ -9,7 +9,7 @@
     class ContactUSController extends Controller
     {
        /**
-        * Show the application dashboard.
+        * Show the form contact
         *
         * @return \Illuminate\Http\Response
         */
@@ -18,7 +18,7 @@
            return view('pages.contacts');
        }
        /**
-        * Show the application dashboard.
+        * Validate and Store in DB
         *
         * @return \Illuminate\Http\Response
         */

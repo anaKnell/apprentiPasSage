@@ -5,7 +5,7 @@
 @section('content')
 
 
-	<section>
+	<section id="banContact">
 
 
 @include('pages.contact.form-contact')

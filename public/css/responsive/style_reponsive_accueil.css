@@ -72,6 +72,7 @@ padding-top: 110px !important;
 font-size: 3.4rem;
 }
 
+
 }
 /*---------------Ipad Screen-------------*/
 @media only screen and (max-width: 768px) {
@@ -106,6 +107,10 @@ font-size: 3.4rem;
 		margin-left: 1.5rem;
 		margin-top: 1.5rem;
 	}
+
+	#titreAssociation{
+	font-size: 3.4rem;
+}
 
 }
 /*--------------phone screen-------------*/
@@ -149,6 +154,10 @@ font-size: 3.4rem;
 	#blockAssociation{
 		margin: auto;
 	}
+	#titreAssociation{
+	font-size: 2.4rem;
+	padding-top: 91px !important
+}
 	
 }
 

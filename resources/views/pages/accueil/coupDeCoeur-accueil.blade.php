@@ -10,4 +10,5 @@
 </script>
 <script type="application/javascript" src="js/main.js"></script>
 
-<div id="keywords" class="m-auto" style="box-sizing:content-box;"></div>
+
+<div id="keywords" class="m-auto"></div>

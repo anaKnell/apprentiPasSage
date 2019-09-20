@@ -1,9 +1,12 @@
-
-
-
+@if($categorie->getCat)
+<div class="m-auto">
+<h1 id="titreEnCours">En cours de réalisation...</h1>
+</div>
+@else
 @foreach($categorie->getCat as $prestation)
 
 @foreach($prestation->getPlusPresta as $plusPresta)
+
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="card cardPresta mt-sm-2 m-auto" style="width:17rem;">
   <img class="card-img-top" src="img/prestation/{{$prestation->prestations_img1}}" alt="Card image cap" style="height:6rem;">
@@ -18,3 +21,4 @@
 
 @endforeach
 @endforeach
+@endif

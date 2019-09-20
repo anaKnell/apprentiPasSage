@@ -6,7 +6,7 @@
 
 {{--Prestations--}}
 <section>
-	<div class="block d-flex">
+	<div class="block d-flex row m-0 p-0">
 		<div class="blockA col-md-1"></div>
 		<div class="titre col-md-2 text-right">
 			<h1 class="m-1" id="nosPrestations">Nos prestations</h1>
@@ -49,10 +49,21 @@
 {{--TEAM--}}
 	<div class="container d-flex align-items-center">
 		<ul class="list-inline mx-auto">
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn btn-border rounded" id="TeamBureau">Bureau</button></li>
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamCoordonnateur">Coordonnateurs</button></li>
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamMembre">Membres</button></li>
-			<li class=" list-inline-item m-1"><button type="button" class="buttonThrombi btn " id="teamCs">Conseil scientifique</button></li>
+			<li class=" list-inline-item m-1">
+				<button type="button" class="btn border rounded buttonTeam" id="TeamBureau">Bureau</button>
+			</li>
+			<li class=" list-inline-item m-1">
+				<button type="button" class="btn border rounded buttonTeam" id="teamCoordonnateur">Coordonnateur(rice)s</button>
+			</li>
+			<li class=" list-inline-item m-1">
+				<button type="button" class="btn border rounded buttonTeam" id="TeamAnimation">Animateur(rice)s</button>
+			</li>
+			<li class=" list-inline-item m-1">
+				<button type="button" class="btn border rounded buttonTeam" id="teamMembre">Membres</button>
+			</li>
+			<li class=" list-inline-item m-1">
+				<button type="button" class="btn border rounded buttonTeam" id="teamCs">Conseil scientifique</button>
+			</li>
 		</ul>
 	</div>
 		<div class="row">

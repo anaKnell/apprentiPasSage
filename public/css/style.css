@@ -198,9 +198,13 @@ font-size: 3.4rem;
 	background-color:#510DB3 !important;
 	margin-top: 1.125rem !important; 
 }
-
-.buttonThrombi{}
-
+.buttonTeam:hover, .buttonTeam:selected{
+	background-color:#510DB3;
+	color:whitesmoke !important;
+}
+.select{
+	border:10px solid #510DB3;
+}
 .displayNone{
 	display:none;
 }
@@ -216,12 +220,6 @@ font-size: 3.4rem;
 .shineText{
 	font-weight:bold !important;
 }
-
-/* .card-text {
-	font-size: 18px!important;
-	line-height: 1.85em!important;
-	letter-spacing: -.02rem!important;
-} */
 
 .quote{
 	color:#510DB3;
@@ -250,6 +248,11 @@ list-style: none;!important;
 .textThrombi {
     font-family: 'Give You Glory', cursive;
     font-size:1.4rem;
+}
+
+#keywords{
+	width:100%;
+	height:500px;
 }
 
 /*----------------------------------------*/
@@ -298,6 +301,11 @@ list-style: none;!important;
 	padding:10px;
 }
 
+#titreEnCours{
+	color: #1e1c1c;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 3rem;
+}
 /*----------------------------------------*/
 /* Template default CSS team
 /*----------------------------------------*/
@@ -330,5 +338,5 @@ list-style: none;!important;
 #sectionEvent{
 	background-color: rgba(234, 230, 242,0.9);
 	border-radius:10px;
-	
 }
+

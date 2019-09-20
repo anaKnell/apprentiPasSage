@@ -3,22 +3,20 @@
 	<div class="card text-center hello">
 		<div class="card-header">
 			<ul class="nav nav-pills card-header-pills">
-				<li class="nav-item m-4"><h4 id="evenementAssociation"class="textDecoration">Evènements</h4></li>
+				<li class="nav-item m-4"><h4 id="evenementAssociation" class="textDecoration">Evènements</h4></li>
 				<li class="nav-item m-4"><h4 id="descriptionAssociation" >Description</h4></li>
 				<li class="nav-item m-4"><h4 id="statutAssociation">Statut</h4></li>
 			</ul>
 		</div>
 		<div class="card-body m-auto">
-			<div id="textEvenement" class="displayNone">
+			<div id="textEvenement">
 				<h4 class="">Nos prochains évènements</h4>
 				@foreach($events_next as $event)
 					@include('pages.accueil.evenement-accueil', compact($event))
 				@endforeach
-
-			<a href="#" class="btn btn-warning">Go somewhere</a>
 			</div>
-			
-			<div id="textDescription" class="card-text m-3">
+
+			<div id="textDescription" class="card-text m-3 displayNone">
 				<p class="text-justify clearText" >
 					Notre association, fondée en 2013, oeuvre pour <span class="shineText">la diffusion de la culture</span>,
 					notamment la culture scientifique dans la vallée de la Vésubie et ailleurs.
