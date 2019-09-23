@@ -13,6 +13,9 @@
 						<a class="nav-link text-light" href="{{route('Accueil')}}#sectionAssociation">Qui sommes-nous?</a>
 					</li>
 					<li class="nav-item m-1">
+						<a class="nav-link text-light" href="{{route('Accueil')}}#nosPrestations">Prestations</a>
+					</li>
+					<li class="nav-item m-1">
 						<a class="nav-link text-light" href="{{route('Accueil')}}#sectionAssociation">Evènements</a>
 					</li>
 					<li class="nav-item dropdown m-1">

@@ -5,7 +5,7 @@
 @section('content')
 
 {{--Prestations--}}
-<section class="block" style="height: 800px;">
+<section class="block" style="min-height: 800px;">
 	<div class="d-flex row ml-2 mr-2">
 
 			@foreach ($prestaCat as $categorie) 

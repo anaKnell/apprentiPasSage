@@ -30,7 +30,7 @@
 					<h4 class="text-center m-3 quote">Action « Talents oubliés »</h4>
 					<p class="text-justify clearText">Nos apprentis pas sages, intervenants, sont pour la plupart des<span class="shineText"> « talents oubliés »</span>.<br> Des personnes dotées d'une <span class="shineText">soif de découvertes</span>, souvent autodidactes, toujours très cultivées dans divers domaines, en permanence en démarche d'amélioration de leurs connaissances et compétences, elles ont rejoints notre association pour donner corps à  leur envie de savoir et de partager.<br> Notre association souhaite leur<span class="shineText"> donner une chance</span> de se faire valoir pour leur réelles compétences, pas toujours reconnues à leur juste valeur.
 				</p>
-				<a href="#" class="btn btn-warning m-3">Nous contacter</a>
+				<a href="{{route('Contact')}}" class="btn btn-warning m-3">Nous contacter</a>
 			</div>
 
 			<div id="textStatut" class="displayNone">

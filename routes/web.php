@@ -25,4 +25,3 @@ Route::get('/contact', 'ContactUSController@create')->name('Contact');
 
 Route::post('/contact', ['as'=>'contactus.store','uses'=>'ContactUSController@store']);
 
-

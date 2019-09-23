@@ -5,15 +5,15 @@
  </head>
  <body>
  <h1>ApprentiPasSage</h1>
-<p>Vous avez reçu un message de : {{ $name }}</p>
+<p>Vous avez reçu un message de : {{--{{ $name }}--}}</p>
  <p>
-     Nom: {{ $name }}
+     Nom: {{--{{ $name }}--}}
  </p>
  <p>
-     Email: {{ $email }}
+     Email: {{--{{ $email }}--}}
  </p>
  <p>
-     Message: {{ $user_message }}
+     Message: {{--{{ $message }}--}}
  </p>
  </body>
  </html>

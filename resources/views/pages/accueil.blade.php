@@ -80,7 +80,7 @@
 	<div class="m-t-1 ban2">
 		<h1 id="titreAssociation" class="float-right" style="box-sizing:border-box;">Coup de coeur</h1>
 	</div>
-
+	
 @include('pages.accueil.coupDeCoeur-accueil',compact($hello))
 </section>
 
