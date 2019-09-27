@@ -14,7 +14,7 @@ class membre extends Model
         'membre_id', 'membre_nom', 'membre_prenom','membre_tel','membre_email','membre_photo','membre_description',
     ];
 
-    function getMembre(){
+    public function getMembre(){
     	return $this->belongsToMany('App\models\status', 'membre_status', 'membre_id','status_id');
     }
 

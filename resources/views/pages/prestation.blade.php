@@ -4,15 +4,14 @@
 
 @section('content')
 
-{{--banniere asso--}}
-<div id="banPresta" class="container-fluid ban"></div>
-{{--ENDbanniere asso--}}
-<section class='mx-5 mr-5 mt-3 mb-3'>
+
+	<div id="banPresta" class="container-fluid"></div>
+
+	<section class='mx-5 mr-5 mt-3 mb-3'>
 	
 		@include('pages.prestation.prestation-prestations', compact('onePresta'))
 	
-</section>
-
+	</section>
 
 
 @endsection

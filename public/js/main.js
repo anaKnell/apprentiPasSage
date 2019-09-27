@@ -12,7 +12,7 @@ function borderGroup(){
 	});
 
 	$('#teamAnimation').on("click",function(){
-		$('.1,.2,.3,.4,.5').removeClass('select');
+		$('.1,.2,.4,.5').removeClass('select');
 		$('.3').addClass('select');
 	});
 
@@ -37,9 +37,10 @@ function borderGroup(){
 
 		$(".dropdown-toggle").dropdown();
 		borderGroup();
+
 		$('#keywords').jQCloud(words, {
-			classPattern: "w3",
-			colors: ["whitesmoke",  "#CCCCFF", "#b7b5a1","#f4f7b4"],
+			/*classPattern: "w9",*/
+			colors: ["whitesmoke", "#CCCCFF", "#b7b5a1","#f4f7b4"],
   			autoResize:true,
   			fontSize: {
     			from: 0.03,
