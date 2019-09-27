@@ -13,21 +13,15 @@
 
 Route::get('/','WelcomeController@index')->name('Accueil');
 
-Route::get('/association','WelcomeController@showAsso')->name('Association');
+Route::get('/prestations/{catId}', 'PrestationController@getCatPrestation')->name('prestations.getCatPrestation');
 
-/*route::get('association',function(){
-	return view('association');
-});
-*/
-route::get('evenement',function(){
-	return view('evenement');
-});
+Route::get('/prestation/{prestaId}','PrestationController@getOnePrestation')->name('prestation.getOnePrestation');
 
-route::get('prestation',function(){
-	return view('prestation');
-});
+Route::get('/membre-association/{teamId}','TeamController@getOneteam')->name('teamController.getOneteam');
 
-route::get('contact',function(){
-	return view('contact');
-});
+Route::get('/evenement-association/{eventId}','EventController@getOneEvent')->name('eventController.getOneEvent');
+
+Route::get('/contact', 'ContactUSController@create')->name('Contact');
+
+Route::post('/contact', ['as'=>'contactus.store','uses'=>'ContactUSController@store']);
 

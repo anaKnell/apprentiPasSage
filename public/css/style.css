@@ -40,6 +40,7 @@ nav{
 }
 #nosPrestations, #association{
 	font-size: 2rem !important;
+
 }
 
 .block{
@@ -48,9 +49,12 @@ nav{
 
 #blockAssociation{
 	background-color:white;
+	margin: 1.5rem;
+
 }
-/* .card {
-	background-color:#ad81ef!important;
+}
+/* .prestationCard {
+	margin: 1.5rem !important;
 } */
 
 h1 .card-text{
@@ -80,7 +84,7 @@ footer a{
 	background-color: white;
 }
 #interlineB{
-	background: -moz-linear-gradient(white,#d5bafc);
+  background: -moz-linear-gradient(white,#d5bafc);
   background: -webkit-linear-gradient(white,#d5bafc);
 
   background: -ms-linear-gradient(white,#d5bafc);
@@ -89,15 +93,34 @@ footer a{
 
   background: linear-gradient(to white,#d5bafc);
 }
+
 .ban {
 	width:100%;
-	height:310px;
+	height:390px;
 	box-sizing:border-box !important;
 	background-image: url('/img/ban.png');
 	background-repeat: no-repeat;
 	background-size:cover;
 }
 
+.ban2 {
+	width:100%;
+	height:310px;
+	box-sizing:border-box !important;
+	background-image: url('/img/ban4.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+
+
+.ban2 h1{
+box-sizing: border-box;
+padding-top: 76px !important;
+color: #1e1c1c;
+font-family: 'Caveat Brush', cursive;
+font-size: 5rem;
+
+}
 .ban h1{
 box-sizing: border-box;
 padding-top: 166px !important;
@@ -105,10 +128,17 @@ color: whitesmoke;
 font-family: 'Caveat Brush', cursive;
 font-size: 5rem;
 }
+#keywords{
+	background-color: #510db3;
+	width:100%;
+}
 
+#coupDeCoeur{
+	background-color: #510db3;
+}
 #banTeam{
 	width:100%;
-	height:305px;
+	height:390px;
 	box-sizing:border-box !important;
 	background-image: url('/img/ban2.png');
 	background-repeat: no-repeat;
@@ -133,7 +163,7 @@ font-size: 5rem;
 #titreTeamScience{
 box-sizing: border-box;
 padding-top: 110px !important;
-color: black;
+color: #1e1c1c;
 font-family: 'Caveat Brush', cursive;
 font-size: 3.4rem;
 }
@@ -141,20 +171,6 @@ font-size: 3.4rem;
 	width:150px;
 	height:300px;
 	background:blue;
-}
-
-.parallelogramme{
-	width:150px;
-	height:300px;
-	background:blue;
-	-webkit-transform:skew(20deg);
-	-moz-transform:skew(20deg);
-	-o-transform:skew(20deg);
-	transform:skew(20deg);
-}	
-			
-#essaiLeft{
-	boder:2px solid black;
 }
 
 // thrombi
@@ -166,18 +182,29 @@ font-size: 3.4rem;
 
 .imageThrombi {
   display: block;
-  width: 20%;
+  width: 160px;
   height: auto;
   border-radius:50%;
+  border:1.5px solid #ede484;
+  box-shadow: 8px 0px 15px whitesmoke;
+}
+
+.imageThrombi:hover {
+  transform: scale(1.1); 
+  cursor: pointer;
 }
 
 .dropdown-menu{
 	background-color:#510DB3 !important;
 	margin-top: 1.125rem !important; 
 }
-
-.buttonThrombi{}
-
+.buttonTeam:hover, .buttonTeam:selected{
+	background-color:#510DB3;
+	color:whitesmoke !important;
+}
+.select{
+	border:10px solid #510DB3;
+}
 .displayNone{
 	display:none;
 }
@@ -185,6 +212,131 @@ font-size: 3.4rem;
 	text-decoration: underline;
 	color:#510DB3;
 }
+.titlePrestation{
+	font-size: 1.3rem;
+}
 
 
+.shineText{
+	font-weight:bold !important;
+}
+
+.quote{
+	color:#510DB3;
+	font-family: 'Caveat Brush', cursive!important;
+}
+
+.listeAssociation ul{
+list-style: none;!important;
+}
+.text-center ul{
+	text-align:left!important;
+}
+
+.clearText{
+		padding:3rem !important;
+		margin:auto;
+	}
+
+.cardTrombi{
+	margin:auto;
+}
+.hello{
+	width:90%!important;
+}
+
+.textThrombi {
+    font-family: 'Give You Glory', cursive;
+    font-size:1.4rem;
+}
+
+#keywords{
+	width:100%;
+	height:500px;
+}
+
+/*----------------------------------------*/
+/* Template default CSS PRESTA
+/*----------------------------------------*/
+.titreH2prestation{
+	color: #1e1c1c;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 1.5rem;
+}
+.titreH3prestation{
+	color: #1e1c1c;
+	font-size: 1rem;
+}
+.titreH1prestation{
+	color: #510db3;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 2.5rem;
+}
+
+#banPresta{
+	background-image: url('/img/banPresta.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 325px;
+}
+
+.imgPresta{
+	width:150px !important;
+	border-bottom: 3px solid #510db3;
+}
+
+.textPartPrestation{
+	font-size: 0.9rem;
+}
+.textObjPrestation{
+	font-size: 0.8rem;
+}
+
+.cardPresta{
+	box-shadow: 5px 5px 4px #b5aac4; 
+}
+#prix{
+	border: 1px solid #510db3;
+	border-radius:5px;
+	padding:10px;
+}
+
+#titreEnCours{
+	color: #1e1c1c;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 3rem;
+}
+/*----------------------------------------*/
+/* Template default CSS team
+/*----------------------------------------*/
+#banOneTeam{
+	width:100%;
+	background-image: url('/img/banTeam.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+	height: 250px;
+}
+
+.imageOneTeam{
+  width:200px !important;
+  height: auto;
+  border-radius:50%;
+  border:5px solid #ede484;
+  box-shadow: 8px 0px 15px whitesmoke;
+}
+
+/*----------------------------------------*/
+/* Template default CSS event
+/*----------------------------------------*/
+#banEvent{
+	width:100%;
+	background-image: url('/img/banEvent.png');
+	background-repeat: no-repeat;
+	background-size:cover;
+
+}
+#sectionEvent{
+	background-color: rgba(234, 230, 242,0.9);
+	border-radius:10px;
+}
 
