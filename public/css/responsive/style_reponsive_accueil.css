@@ -178,15 +178,18 @@ font-size: 3.4rem;
 
 /*---------------Medium Screen-------------*/
 @media only screen and (max-width: 768px) {
-#banPresta{
-height: 148px;
-}
+	#banPresta
+	{
+		height: 148px;
+	}
 
 
 }
 
 @media only screen and (max-width: 375px) {
-	#banPresta{	
-	height: 72px;
+	#banPresta
+	{	
+		height: 72px;
+	}
 }
-}
+

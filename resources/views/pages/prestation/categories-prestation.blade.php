@@ -9,7 +9,7 @@
 
 <div class="col-12 col-sm-6 col-lg-4">
 <div class="card cardPresta mt-sm-2 m-auto" style="width:19rem;">
-<img class="card-img-top m-auto mt-2" src="/img/prestation/{{$prestation->prestations_img1}}" alt="Card image cap" style="width:150px;">
+<!-- <img class="card-img-top m-auto mt-2" src="/img/prestation/{{--{{$prestation->prestations_img1}}--}}" alt="Card image cap" style="width:150px;"> -->
 	<div class="card-body">
     <h2 class="titreH2prestation card-title text-center" style="height:5rem;">{{$plusPresta->prestations_nom}}</h2>
 	<p class="textObjPrestation card-text border rounded p-2" style="height:11rem;">{{$plusPresta->prestations_objectifs}}</p>

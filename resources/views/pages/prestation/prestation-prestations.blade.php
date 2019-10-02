@@ -3,7 +3,7 @@
 
 <div class="row">
   <div class="col-xs-12 col-sm-3 m-auto">
-  	<img class="imgPresta m-auto" src="/img/team/apprentispassages_logo_renard.png" alt="photo represantant la prestation de apprentispassages nommée {{$aboutPresta->prestations_nom}}">
+  	<img class="imgPresta m-auto" src="/img/team/apprentispassages_logo_renard.png" alt="photo  renard logo de l'association">
   </div>
   <div class="col-xs-12 col-sm-5 ">
 	   <h1 class="titreH1prestation">{{$aboutPresta->prestations_nom}}</h1>

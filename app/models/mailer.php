@@ -17,11 +17,11 @@ class mailer extends Mailable
      * @return void
      */
 
-     public $mail;
+     public $mails;
 
-    public function __construct($mail)
+         public function __construct(Array $mail)
     {
-        $this->mail = $mail;
+        $this->mails = $mail;
     }
 
     /**
@@ -31,8 +31,8 @@ class mailer extends Mailable
      */
     public function build()
     {
-        $address = 'anaelle.alenda@gmail.com';
-        $name = 'Anaëlle';
+        $address = '';
+        $name = '';
         $subject = 'Email contact';
 
     return $this->view('pages.contact.email')

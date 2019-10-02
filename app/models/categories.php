@@ -11,7 +11,7 @@ class categories extends Model
 	public $timestamps = false;
 
     protected $fillable = [
-        'categories_id', 'categories_img',
+      'categories_img'
     ];
 
         function getCategorie(){

@@ -33,10 +33,9 @@
             ]);
 
            ContactUS::create($request->all());
-           /*$mailer = app()['mailer'];
 
-           $mailer->*/
-           Mail::to('contact@apprentispassages.com')->send(new mailer($request->except('_token')));
+          
+          Mail::to('contact@apprentispassages.com')->send(new mailer($request->except('_token')));
 
 
 /*           ('pages.contact.email',
@@ -45,8 +44,7 @@
            'email' => $request->get('email'),
            'message' => $request->get('message')
        ), function($message)
-   {
-         $message->to('contact@apprentispassages.com', '')->subject('Welcome!');*/
+   {*/
           return back()->with('success', 'Votre message a bien été envoyé! Vous serez contacté dans les meilleurs délais');
 
     }

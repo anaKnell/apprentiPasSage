@@ -10,8 +10,7 @@
 
    {!! Form::open(['route'=>'contactus.store']) !!}
 
-   {{ csrf_field() }}
-
+     @csrf
    <div class="form-group {{ $errors->has('name') ? 'has-error' : '' }}">
     {!! Form::label('Votre nom:') !!}
     {!! Form::text('name', old('name'), ['class'=>'form-control', 'placeholder'=>'Entrer votre nom et prénom']) !!}
