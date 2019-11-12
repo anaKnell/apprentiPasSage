@@ -6,27 +6,18 @@
 
 {{--Prestations--}}
 <section>
-	<div class="block d-flex row m-0 p-0">
-		<div class="blockA col-md-1"></div>
-		<div class="titre col-md-2 text-right">
-			<h1 class="m-1" id="nosPrestations">Nos prestations</h1>
-		</div>
-		<div class="col-md-9 themed-grid-col">
-			<div class="row">
-				@foreach($categorie as $cat)
-					@foreach($cat->getCategorie as $nameCat)
-						@include('pages.accueil.accueil-PrestationCard', compact($cat))
-					@endforeach
-				@endforeach
-			</div>
-		</div>
+<div id="banPresta" class="container-fluid">
+	
+</div>
+	<div class="row m-0 m-md-5">
+		@foreach($categorie as $cat)
+			@foreach($cat->getCategorie as $nameCat)
+				@include('pages.accueil.accueil-PrestationCard', compact($cat))
+			@endforeach
+		@endforeach
 	</div>
 </section>
 {{--ENDPrestations--}}
-{{--Interline--}}
-	<div id="interlineA" style="height: 100px; background-color:#d5bafc;">
-	</div>
-{{--EndInterline--}}
 
 {{--banniere asso--}}
 	<div id="ban" class="container-fluid m-t-1 ban">

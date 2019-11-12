@@ -1,6 +1,6 @@
 /* =================================
 ------------------------------------
-  Divisima | ApprentiPasSage -Accueil Template
+ ApprentiPasSage -Accueil Template
   Version: 1.0
  ------------------------------------
  ====================================*/
@@ -9,7 +9,9 @@
 /*----------------------------------------*/
 /* Template default CSS
 /*----------------------------------------*/
-
+body{
+	background-color: whitesmoke;
+}
 
 nav{
 	background-color:#510DB3;
@@ -28,10 +30,17 @@ nav{
 }
 
 #logo{
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
 }
-
+#titrePrestation
+{
+	box-sizing: border-box;
+	padding-top: 128px !important;
+	color: white;
+	font-family: 'Caveat Brush', cursive;
+	font-size: 5rem;
+}
 .titre{
 	color:whitesmoke;
 	background-color:#510db3;
@@ -52,10 +61,13 @@ nav{
 	margin: 1.5rem;
 
 }
-}
-/* .prestationCard {
-	margin: 1.5rem !important;
-} */
+
+ .prestationCard {
+	width: 15rem !important; 
+	height: 20rem !important;
+	box-shadow :7px 6px 2px 1px rgba(104, 104, 104, 0.2);
+	background-color: rgba(248, 244, 1, 0.295) !important;
+} 
 
 h1 .card-text{
 	font-family: 'Rubik', sans-serif !important;
@@ -173,7 +185,7 @@ font-size: 3.4rem;
 	background:blue;
 }
 
-// thrombi
+
 
 .contenuThrombi{
   position: relative;
@@ -227,7 +239,7 @@ font-size: 3.4rem;
 }
 
 .listeAssociation ul{
-list-style: none;!important;
+list-style: none !important;
 }
 .text-center ul{
 	text-align:left!important;
